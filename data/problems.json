@@ -1,0 +1,42 @@
+[
+  {
+    "id": "10",
+    "title": "Penjumlahan Sederhana",
+    "statement": "Diberikan dua bilangan bulat A dan B. Hitung A + B.",
+    "input_format": "Dua bilangan bulat A dan B dipisahkan spasi.",
+    "output_format": "Satu bilangan: A + B.",
+    "samples": [{ "in": "3 4", "out": "7" }]
+  },
+  {
+    "id": "20",
+    "title": "Pengurangan Sederhana",
+    "statement": "Diberikan dua bilangan A dan B. Hitung A - B.",
+    "input_format": "Dua bilangan bulat A dan B.",
+    "output_format": "Satu bilangan: A - B.",
+    "samples": [{ "in": "10 6", "out": "4" }]
+  },
+  {
+    "id": "30",
+    "title": "Perkalian Sederhana",
+    "statement": "Diberikan dua bilangan A dan B. Hitung A * B.",
+    "input_format": "Dua bilangan bulat A dan B.",
+    "output_format": "Satu bilangan: A * B.",
+    "samples": [{ "in": "3 5", "out": "15" }]
+  },
+  {
+    "id": "40",
+    "title": "Pembagian Bulat",
+    "statement": "Diberikan dua bilangan A dan B (B ≠ 0). Hitung A // B.",
+    "input_format": "Dua bilangan bulat A dan B.",
+    "output_format": "Satu bilangan: A // B.",
+    "samples": [{ "in": "10 2", "out": "5" }]
+  },
+  {
+    "id": "50",
+    "title": "FPB Dua Bilangan",
+    "statement": "Diberikan dua bilangan A dan B. Hitung FPB(A, B).",
+    "input_format": "Dua bilangan bulat A dan B.",
+    "output_format": "Satu bilangan: FPB A dan B.",
+    "samples": [{ "in": "18 24", "out": "6" }]
+  }
+]

@@ -1,0 +1,27 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="container">
+  <h1 class="my-4 text-center"><i class="fas fa-puzzle-piece fun-icon"></i> Daftar Soal</h1>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    {% for p in problems %}
+    <div class="col">
+      <div class="card problem-card h-100">
+        <div class="card-body">
+          <h5 class="card-title">
+            <span class="badge bg-primary me-2">{{ p.id }}</span>
+            {{ p.title }}
+          </h5>
+          <p class="card-text">{{ p.statement[:100] }}...</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <a href="{{ url_for('main.problem', pid=p.id) }}" class="btn btn-sm btn-primary"> <i class="fas fa-play me-1"></i> Coba Soal </a>
+          <span class="float-end">
+            <span class="badge bg-secondary">{{ p.difficulty }}</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
